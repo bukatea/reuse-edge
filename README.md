@@ -22,7 +22,7 @@ Prerequisites (unless stated, on both Pi's and CN's):
 5. g++ >= 8 for C++17
 
 ### CN
-To start, clone this repository into home or preferred directory using `git clone https://github.com/bukatea/reuse-edge.git`. The commands below assume the repo was cloned to home.
+To start, clone this repository into home or preferred directory using `git clone --recursive https://github.com/bukatea/reuse-edge.git`. The commands below assume the repo was cloned to home.
 
 First, we need to replace the wscript in ndn-cxx and ndn-cxx/examples with the reuse-edge version, as we've added new libraries (Eigen, dlib, and Goldfish) and ndn-cxx needs to be aware of those as it compiles examples.
 Run
