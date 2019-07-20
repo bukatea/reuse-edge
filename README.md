@@ -119,7 +119,7 @@ cp ~/reuse-edge/src/routers/single/route_edge-compute.sh ~
 | Workshop | IEEE GLOBECOM MobileEdgeCom 2019 - *A Case for Compute Reuse in Future Edge Systems: An Empirical Study* | matrix, simcamera, and chess | pending |
 
 ## TO-DOs
-- [ ] Git submodules for external libraries
+- [x] Git submodules for external libraries
 - [ ] Switch naive prodreceived-based counting method for smarter bool-based counting method when responding to interests
 - [ ] Remove possible redundancy of checking reuse table for matrix twice in [MAC_matrix.cpp](../master/src/CN/MAC_matrix.cpp)
 - [ ] Add proper debug statements instead of printing to `cout` for everything
