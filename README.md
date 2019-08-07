@@ -115,7 +115,8 @@ cp ~/reuse-edge/src/routers/single/route_edge-compute.sh ~
 ## Past Submissions
 | Type | Name | Modules | Status |
 | --- | --- | --- | --- |
-| Conference | ACM/IEEE SEC 2019 - *ICedge: When Edge Computing Meets Information-Centric Networking* | matrix only | pending |
+| Journal | IEEE IoT - *ICedge: When Edge Computing Meets Information-Centric Networking* | simcamera only | pending |
+| Conference | ACM/IEEE SEC 2019 - *ICedge: When Edge Computing Meets Information-Centric Networking* | matrix only | reject |
 | Workshop | IEEE GLOBECOM MobileEdgeCom 2019 - *A Case for Compute Reuse in Future Edge Systems: An Empirical Study* | matrix, simcamera, and chess | pending |
 
 ## TO-DOs
