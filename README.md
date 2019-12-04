@@ -1,11 +1,12 @@
 # reuse-edge
-This repository contains a testbed-deployable application-level implementation of compute reuse for edge networks, as described in the seminal SEC paper *ICedge*.
+This repository contains a testbed-deployable application-level implementation of compute reuse for edge networks.
+<!--- as described in the seminal SEC paper *ICedge*. --->
 
 Currently, we have three applications implementing reuse: matrix multiplication (shortened to "matrix"), face detection on a simulated camera feed (shortened to "simcamera"), and a chess optimal move algorithm (shortened to "chess").
 These applications consist of two files (for now): a consumer source file and a CN source file. They describe how consumers send requests for computation and how CNs respond to them and provide computation services.
 Each source file is heavily commented. To write new applications, use any of the existing applications as a template.
 
-For further implementation details, refer to the MobileEdgeCom paper *A Case*.
+<!--- For further implementation details, refer to the MobileEdgeCom paper *A Case*. --->
 
 ## Installation Instructions
 **Make sure to follow this part very carefully or the testbed will not work as intended!**
@@ -112,12 +113,12 @@ cp ~/reuse-edge/src/routers/access/route_edge-compute.sh ~
 cp ~/reuse-edge/src/routers/single/route_edge-compute.sh ~
 ```
 
-## Past Submissions
+<!--- ## Past Submissions
 | Type | Name | Modules | Status |
 | --- | --- | --- | --- |
 | Journal | IEEE IoT - *ICedge: When Edge Computing Meets Information-Centric Networking* | simcamera only | pending |
 | Conference | ACM/IEEE SEC 2019 - *ICedge: When Edge Computing Meets Information-Centric Networking* | matrix only | reject |
-| Workshop | IEEE GLOBECOM MobileEdgeCom 2019 - *A Case for Compute Reuse in Future Edge Systems: An Empirical Study* | matrix, simcamera, and chess | ACCEPT! |
+| Workshop | IEEE GLOBECOM MobileEdgeCom 2019 - *A Case for Compute Reuse in Future Edge Systems: An Empirical Study* | matrix, simcamera, and chess | ACCEPT! | --->
 
 ## TO-DOs
 - [x] Git submodules for external libraries
